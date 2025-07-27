@@ -5,3 +5,4 @@ def organize_content():
     for line in get_content():
         content_list.append(line.strp())
     return content_list
+

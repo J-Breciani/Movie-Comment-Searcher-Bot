@@ -1,5 +1,4 @@
-from bot_model import Webdriver
-from utils.f_content import get_content
+
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait

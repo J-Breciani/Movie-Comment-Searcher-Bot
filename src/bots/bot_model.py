@@ -2,8 +2,7 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver import ChromeOptions, FirefoxOptions
 from selenium.webdriver.common.by import By
-import csv
-from time import sleep
+
 
 class Webdriver:
     def __init__(self, browser: str="chrome", headless: bool=False) -> None:

@@ -8,8 +8,8 @@ browser = Webdriver().criar_webdriver()
 movies_list = organize_content()
 
 for item in movies_list:
-    run = Bot(item)
+    run = Bot(item, browser="Chrome", headless=False)
     run.define_text()
-    run.get_comments(browser)
+    run.get_comments()
 
 

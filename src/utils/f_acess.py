@@ -3,4 +3,3 @@ def acess_page_via_movie_link(browser, link):
     
 def acess_page(browser):
     browser.get("https://www.imdb.com/pt/")
-    
